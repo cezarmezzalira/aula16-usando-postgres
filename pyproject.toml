@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aula16-usando-postgres"
+version = "0.1.0"
+description = "Aula 16 - Usando postgres com SQLModel"
+authors = ["Cezar Augusto Mezzalira <cezar.mezzalira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0"
+sqlmodel = "^0.0.11"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
